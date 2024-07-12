@@ -1,4 +1,5 @@
 import styles from './Sidebar.module.css';
+import { Avatar } from './Avatar';
 
 export function Sidebar() {
   return (
@@ -9,7 +10,7 @@ export function Sidebar() {
       />
 
       <div className={styles.profile}>
-        <img src="https://github.com/luizhmal.png" className={styles.avatar}/>
+      <Avatar src="https://github.com/luizhmal.png" />
 
 
         <strong>Luiz Henrique</strong>
