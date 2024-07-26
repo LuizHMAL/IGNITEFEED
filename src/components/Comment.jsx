@@ -19,7 +19,7 @@ export function Comment({ content, onDeleteComment }) {
               <Avatar hasBorder={false} src="https://avatars.githubusercontent.com/u/158317181?v=4,
               
               
-              
+
               .png" alt="" />
 
             <div className = {styles.commentBox}>  
